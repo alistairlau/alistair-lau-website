@@ -23,7 +23,7 @@ function Footer() {
 				<FooterGrid justify="space-between">
 					<FooterColumn id="footerLogo">
 						<FooterLogo to="/">
-							<SocialIcon src="./assets/logo1.png" />
+							<SocialIcon src={process.env.PUBLIC_URL + '/assets/logo.png'} />
 							Alistair.
 						</FooterLogo>
 						<FooterAddress>

@@ -88,7 +88,7 @@ export const Content = ({
 					>
 						<ImgWrapper>
 							<Img
-								src={img}
+								src={process.env.PUBLIC_URL + img}
 								alt={alt}
 								whileHover={{ rotate: 2, scale: 1.02 }}
 								transition={{ duration: 0.5 }}

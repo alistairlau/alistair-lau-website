@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import { Button, Container, MainHeading, MainHeadingName } from '../../globalStyles';
 import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './HeroStyles';
 
 function Hero() {
   return (
     <HeroSection>
-        <HeroVideo src='./assets/pexelsVideo1.mp4' autoPlay muted></HeroVideo>
+        <HeroVideo src={process.env.PUBLIC_URL + '/assets/pexelsVideo.mp4'} autoPlay muted></HeroVideo>
         <Container>
             <MainHeading>Hi There, I'm</MainHeading>
             <MainHeadingName>Alistair Lau</MainHeadingName>

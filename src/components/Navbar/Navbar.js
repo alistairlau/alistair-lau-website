@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaRProject, FaTimes } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa';
 import { CgMenuRight } from 'react-icons/cg';
 import { IconContext } from 'react-icons';
 import {
@@ -47,7 +47,7 @@ function Navbar() {
                 <Nav>
                     <NavbarContainer>
                         <NavLogo to="/">
-                            <NavIcon src="./assets/logo1.png" alt="logo" />
+                            <NavIcon src={process.env.PUBLIC_URL + '/assets/logo.png'} alt="logo" />
                             Alistair.
                         </NavLogo>
                         <MobileIcon onClick={handleClick}>

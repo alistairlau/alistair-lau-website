@@ -1,11 +1,9 @@
 import React from 'react';
 
-import { IoIosOptions, IoLogoJavascript, IoLogoCss3 } from 'react-icons/io';
+import { IoLogoJavascript, IoLogoCss3 } from 'react-icons/io';
 import { FaReact, FaAngular, FaPython } from "react-icons/fa";
 import { SiFlutter, SiFirebase, SiPostgresql  } from "react-icons/si";
-import { AiOutlineCloudUpload, AiFillHtml5 } from 'react-icons/ai';
-import { BiSupport, BiDollar } from 'react-icons/bi';
-import { GrHostMaintenance } from 'react-icons/gr';
+import { AiFillHtml5 } from 'react-icons/ai';
 const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const featuresData = [

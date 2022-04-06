@@ -9,7 +9,7 @@ export const heroOne = {
 	buttonLabel: 'Resume',
 	imgStart: 'start',
 	linkTo: 'https://github.com/alistairlau/fastapi',
-	img: './assets/svg/undraw.svg',
+	img: '/assets/svg/undraw.svg',
 	start: 'true',
 };
 
@@ -25,7 +25,7 @@ export const heroTwo = {
 
 	linkTo: 'https://github.com/alistairlau/fastapi',
 	imgStart: 'start',
-	img: './assets/svg/Connection.svg',
+	img: '/assets/svg/Connection.svg',
 	start: 'true',
 };
 
@@ -41,6 +41,6 @@ export const heroThree = {
 	buttonLabel: 'View Project',
 	linkTo: '/download',
 	imgStart: '',
-	img: './assets/svg/undraw_photo.svg',
+	img: '/assets/svg/undraw_photo.svg',
 	start: 'true',
 };
