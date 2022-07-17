@@ -18,6 +18,12 @@ export const data = [
 		image: '/assets/fastAPI.png',
 		link: 'https://github.com/alistairlau/fastapi'
 	},
+	{
+		title: 'Wordle Clone',
+		description: 'Built a Wordle Clone using React Framework.',
+		image: '/assets/wordleClone.png',
+		link: 'https://github.com/alistairlau/worlde-clone'
+	},
 ];
 
 export const sliderSettings = {
