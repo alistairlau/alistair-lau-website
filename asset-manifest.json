@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/alistair-lau-website/static/css/main.31d6cfe0.css",
-    "main.js": "/alistair-lau-website/static/js/main.77aafef2.js",
-    "index.html": "/alistair-lau-website/index.html",
-    "main.77aafef2.js.map": "/alistair-lau-website/static/js/main.77aafef2.js.map"
+    "main.css": "/alistairlau.github.io/react-gh-pages/static/css/main.31d6cfe0.css",
+    "main.js": "/alistairlau.github.io/react-gh-pages/static/js/main.f76f9cd4.js",
+    "index.html": "/alistairlau.github.io/react-gh-pages/index.html",
+    "main.f76f9cd4.js.map": "/alistairlau.github.io/react-gh-pages/static/js/main.f76f9cd4.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.77aafef2.js"
+    "static/js/main.f76f9cd4.js"
   ]
 }
